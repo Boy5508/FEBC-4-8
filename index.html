@@ -43,6 +43,7 @@ const json = await response.json()
 for (let i = 0; i < json.length; i++) {
                 const result = document.getElementById("result");
                 result.innerHTML += `<li>${json[i].title}</li>`;
+                console.log("This is a Boy")
         }
         }
       getData()
